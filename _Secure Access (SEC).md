@@ -949,9 +949,10 @@ conf t
 !@EDGE-72
 conf t
  ip nat inside source static tcp  10.72.1.4  23  200.0.0.72  4023
+end
  !
- ip nat inside source static tcp  10.72.1.4  __  __.__.__.__     __
- ip nat inside source static tcp  10.72.1.4  __  __.__.__.__     __
+ ip nat inside source static tcp  10.72.100.8	  23  200.0.0.
+ ip nat inside source static tcp  10.72.1.4  22  200.0.0.     __
  end
 ~~~
 
